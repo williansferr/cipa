@@ -1,7 +1,21 @@
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
+body,h1,h2,h3,h4,h5 {
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	font-size:16px;
+}
+.w3-half img{
+
+	margin-bottom:-6px;
+	margin-top:16px;
+	/*opacity:0.8;*/
+	cursor:pointer;
+}
+
+.w3-half img:hover{
+	opacity:1;
+}
 
 .logo{
 	/*width: 50px;*/
@@ -11,18 +25,27 @@ body {font-size:16px;}
 
 .main-menu{
 	box-shadow: 5px 5px 10px grey;
+	z-index:3;
+	width:240px;
+	font-weight:bold;
 }
 
 .text-position{
 	color: green;
+	font-size: 38px;
 	/*float: center;*/
 	/*padding: 4s%;*/
+	/*font-family: 'Ceviche One', cursive;*/
+	/*font-family: 'Allerta Stencil', sans-serif;*/
+	/*font-family: 'Doppio One', sans-serif;*/
+	font-family: 'Love Ya Like A Sister', cursive;
+	/*font-family: 'Wendy One', sans-serif;*/
 }
 
 .head{
 	box-shadow: 5px 5px 10px grey;
 	position: fixed;
     top:0;
-    left: 18%;
+    left: 18.5%;
     background-color: white;
 }
